@@ -1,0 +1,88 @@
+@media (max-width: 1790px) {
+  .information {
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+  }
+  .images-info {
+    display: flex;
+    min-width: 250px;
+  }
+  .images-info .secador,
+  .images-info .corte,
+  .images-info .maquina {
+    position: static;
+    z-index: auto;
+    top: auto;
+    left: auto;
+    margin: 20px;
+    width: 100%;
+  }
+  .description {
+    margin-top: 25px;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .infos-service {
+    width: 100%;
+  }
+  .container {
+    margin-bottom: 20px;
+    width: 280px;
+  }
+  .container img {
+    width: 280px;
+  }
+  .img-services {
+    flex-direction: column;
+  }
+  .team {
+    flex-direction: column;
+    width: 100%;
+  }
+  .text-vertical {
+    writing-mode: horizontal-tb; /* texto na vertical de baixo pra cima */
+    transform: rotate(360deg); /* opcional: gira para ficar de cima pra baixo */
+    font-size: 30px;
+  }
+}
+@media (max-width: 1090px) {
+  .contacts ul {
+    display: none;
+  }
+  .btn-agendar {
+    display: none;
+  }
+  .cabecalho .fa-bars {
+    display: block;
+    color: #f0b35b;
+    font-size: xx-large;
+  }
+  .home-page {
+    height: 100vh;
+  }
+  .container-infos h1 {
+    width: 90%;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .images-info {
+    flex-direction: column;
+  }
+  .unidades .unidade {
+    flex-direction: column;
+  }
+  .uni img {
+    max-width: 300px;
+  }
+  .whats {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .container-infos h1 {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
+}

@@ -1,0 +1,232 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.cabecalho img {
+  width: 81px;
+  height: 96px;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.contacts ul {
+  display: flex;
+  gap: 70px;
+}
+.contacts ul a {
+  color: #fff;
+}
+.contacts ul a:hover {
+  color: #f0b35b;
+}
+.btn-agendar {
+  background-color: #f0b35b;
+  width: 211px;
+  height: 44px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+}
+.cabecalho .fa-bars {
+  display: none;
+}
+.home-page {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), #0b1120),
+    url(../img/background.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+.container-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100%;
+  gap: 20px;
+}
+.container-infos h1 {
+  width: 931px;
+  height: 132px;
+  font-size: 45px;
+}
+.container-infos a {
+  background-color: #f0b35b;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  color: black;
+  width: 292px;
+  height: 44px;
+  padding: 10px;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  margin: 400px;
+}
+.images-info .secador {
+  position: absolute;
+  z-index: 1;
+  top: 1511px;
+  left: 419px;
+}
+.images-info .corte {
+  position: absolute;
+  z-index: 0;
+  top: 1790px;
+  left: 154px;
+}
+.images-info .maquina {
+  position: absolute;
+  z-index: 0;
+  top: 1790px;
+  left: 560px;
+}
+.description {
+  width: 477px;
+  color: #fff;
+}
+.description p {
+  margin-bottom: 15px;
+}
+.services {
+  background-color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+.infos-service {
+  width: 860px;
+  margin: auto;
+}
+.img-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.container {
+  width: 350px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-right: 24px;
+  border-radius: 10px;
+}
+.container img {
+  width: 350px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+}
+.preco {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.preco .value {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 108px 0;
+  gap: 44px;
+}
+.text-vertical {
+  writing-mode: vertical-rl; /* texto na vertical de baixo pra cima */
+  transform: rotate(180deg); /* opcional: gira para ficar de cima pra baixo */
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #636a86;
+}
+.image-team .funcionario {
+  width: 318px;
+  height: 354px;
+  filter: brightness(50%);
+}
+.image-team .name {
+  transform: translateY(-300%);
+  text-align: center;
+  color: #f0b35b;
+  font-weight: 700;
+}
+.socials {
+  text-align: center;
+  font-size: 24px;
+}
+.socials a {
+  color: #fff;
+}
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram {
+  padding-right: 44px;
+}
+
+.unidades {
+  text-align: center;
+  background-color: #fff;
+  padding: 100px 0;
+}
+.unidades h2 {
+  padding: 50px;
+  font-size: 40px;
+}
+.unidade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 44px;
+}
+.uni img {
+  width: 450px;
+  height: 490px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.555);
+}
+.adress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-170%);
+}
+.adress p {
+  background-color: #141414e3;
+  width: 232px;
+  color: #fff;
+  font-size: small;
+  border: 1.4px solid #fff;
+  border-radius: 10px;
+}
+.logo-icon {
+  background-color: #fff;
+  text-align: center;
+}
+.foot-icons {
+  padding: 30px 0;
+  font-size: 30px;
+  color: #0d121e;
+}
+.foot-icons a {
+  color: #000;
+}
+
+.logo-fim {
+  margin-top: 50px;
+}
+.whats {
+  text-align: end;
+  padding: 30px;
+}
